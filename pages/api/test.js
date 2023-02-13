@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-    res.status.json({
+    res.status(200).json({
         name: req.body,
         msg: req.query
     })
